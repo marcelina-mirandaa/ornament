@@ -90,7 +90,7 @@ const categories = [
             {
                 name: "wstęgowo-cęgowy",
                 location: "",
-                date: "1610-1750",
+                date: "1710-1750",
                 image: "images/ornament/wstęgowo-cęgowy, 1610-1750.png"
             },
             {
