@@ -159,6 +159,12 @@ const categories = [
                 date: "1710-1720",
                 image: "images/ornament/akant postrzępiony, 1710-1720.png"
             },
+            {
+                name: "akant płomienisty",
+                location: "",
+                date: "1725-1780",
+                image: "images/ornament/akant płomienisty 1725-1780.png"
+            },
         ]
     }
 ];
