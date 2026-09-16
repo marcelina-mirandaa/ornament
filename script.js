@@ -114,7 +114,7 @@ const categories = [
             {
                 name: "Akant suchy",
                 location: "",
-                date: "1710-1720",
+                date: "1700-1710",
                 image: "images/ornament/Akant suchy, 1710-1720.png"
             },
             {
