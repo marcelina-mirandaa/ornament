@@ -152,7 +152,13 @@ const categories = [
                 location: "",
                 date: "1710-1750",
                 image: "images/ornament/Lambrekin, 1710-1750.png"
-            }
+            },
+            {
+                name: "akant postrzępiony",
+                location: "",
+                date: "1710-1720",
+                image: "images/ornament/akant postrzępiony, 1710-1720.png"
+            },
         ]
     }
 ];
