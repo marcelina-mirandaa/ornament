@@ -165,6 +165,12 @@ const categories = [
                 date: "1725-1780",
                 image: "images/ornament/akant płomienisty 1725-1780.png"
             },
+            {
+                name: "przekraczanie ramy przez elementy",
+                location: "",
+                date: "po 1700",
+                image: "images/ornament/przekraczanie ramy przez elementy, po 1700.png"
+            },
         ]
     }
 ];
