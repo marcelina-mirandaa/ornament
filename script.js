@@ -7,24 +7,28 @@ const categories = [
                 name: "Akant z karbowaną wstązką",
                 location: "",
                 date: "1715-1720",
+                dateeu: "1715-1720",
                 image: "images/ornament/Akant z karbowaną wstązką, 1715-1720.png"
             },
             {
                 name: "Rollwerk z Kaboszonem",
                 location: "",
                 date: "1560-1580",
+                dateeu: "od 1530 do XVII",
                 image: "images/ornament/Rollwerk z Kaboszonem,1560-1580 .JPG"
             },
             {
                 name: "Okuciowy",
                 location: "",
                 date: "1590-1630",
+                dateeu: "1545-1630",
                 image: "images/ornament/Okuciowy, 1590-1630.JPG"
             },
             {
                 name: "Małżowinowo-chrząstkowy",
                 location: "",
                 date: "1620-1655",
+                dateeu: "1600–1680",
                 image: "images/ornament/Małżowinowo-chrząstkowy, 1620-1655.png"
             },
             {
@@ -43,6 +47,7 @@ const categories = [
                 name: "kandelabrowy",
                 location: "",
                 date: "1520-1560",
+                dateeu: "koniec XV",
                 image: "images/ornament/kandelabrowy, 1520-1560.png"
             },
             {
@@ -55,6 +60,7 @@ const categories = [
                 name: "Regencyjne główki",
                 location: "",
                 date: "1710-1750",
+                dateeu: "1700–1730",
                 image: "images/ornament/Regencyjne główki, 1710-1750.webp"
             },
             {
@@ -79,42 +85,47 @@ const categories = [
                 name: "Rocaille",
                 location: "",
                 date: "1740-1800",
+                dateeu: "1730–1800",
                 image: "images/ornament/Rocaille, 1740-1800.png"
             },
             {
                 name: "akant mięsisty",
                 location: "",
                 date: "1680-1700",
+                dateeu: "1680–1700",
                 image: "images/ornament/akant mięsisty, 1680-1700.png"
             },
             {
                 name: "wstęgowo-cęgowy",
                 location: "",
                 date: "1710-1750",
+                dateeu: "1700–1730",
                 image: "images/ornament/wstęgowo-cęgowy, 1610-1750.png"
             },
             {
                 name: "arabeska",
                 location: "",
-                date: "od 1501",
+                date: "od 1502",
+                dateeu: "od 1500",
                 image: "images/ornament/arabeska, od 1501.png"
             },
             {
                 name: "Kratka regencyjna",
                 location: "",
                 date: "1710-1750",
+                dateeu: "1700–1730",
                 image: "images/ornament/Kratka regencyjna, 1710-1750.JPG"
             },
             {
                 name: "Rocaille grzebieniowy",
                 location: "",
-                date: "po 1750",
+                date: "1740-1760",
                 image: "images/ornament/Rocaille grzebieniowy, po 1750.png"
             },
             {
                 name: "Akant suchy",
                 location: "",
-                date: "1700-1710",
+                dateeu: "1700-1710",
                 image: "images/ornament/Akant suchy, 1710-1720.png"
             },
             {
@@ -127,6 +138,7 @@ const categories = [
                 name: "Schweifwerk",
                 location: "",
                 date: "1600-1650",
+                dateeu: "1570-1650",
                 image: "images/ornament/Schweifwerk, 1600-1650.webp"
             },
             {
@@ -139,6 +151,7 @@ const categories = [
                 name: "Maureska",
                 location: "",
                 date: "od 1501",
+                dateeu: "od 1520",
                 image: "images/ornament/Maureska, od 1501.jpg"
             },
             {
@@ -291,7 +304,9 @@ function createQuiz() {
         const fields = category.ornament
             ? [
                 { label: "Nazwa", value: obj.name },
-                { label: "Data", value: obj.date }
+                { label: "Data", value: obj.date },
+                { label: "Data europa", value: obj.dateeu
+                },
             ]
             : [
                 { label: "Nazwa", value: obj.name },
@@ -345,7 +360,8 @@ function createQuiz() {
             answerBox.innerHTML = category.ornament
                 ? `
                     <strong>Nazwa:</strong> ${obj.name}<br>
-                    <strong>Data:</strong> ${obj.date || "—"}
+                    <strong>Data:</strong> ${obj.date || "—"}<br>
+                    <strong> Data w europie: </strong> ${obj.dateeu || "-"}
                 `
                 : `
                     <strong>Nazwa:</strong> ${obj.name}<br>
