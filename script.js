@@ -28,7 +28,7 @@ const categories = [
                 name: "Małżowinowo-chrząstkowy",
                 location: "",
                 date: "1620-1655",
-                dateeu: "1600–1680",
+                dateeu: "1600-1680",
                 image: "images/ornament/Małżowinowo-chrząstkowy, 1620-1655.png"
             },
             {
@@ -61,7 +61,7 @@ const categories = [
                 name: "Regencyjne główki",
                 location: "",
                 date: "1710-1750",
-                dateeu: "1700–1730",
+                dateeu: "1700-1730",
                 image: "images/ornament/Regencyjne główki, 1710-1750.webp"
             },
             {
@@ -86,21 +86,21 @@ const categories = [
                 name: "Rocaille",
                 location: "",
                 date: "1740-1800",
-                dateeu: "1730–1800",
+                dateeu: "1730-1800",
                 image: "images/ornament/Rocaille, 1740-1800.png"
             },
             {
                 name: "akant mięsisty",
                 location: "",
                 date: "1680-1700",
-                dateeu: "1680–1700",
+                dateeu: "1680-1700",
                 image: "images/ornament/akant mięsisty, 1680-1700.png"
             },
             {
                 name: "wstęgowo-cęgowy",
                 location: "",
                 date: "1710-1750",
-                dateeu: "1700–1730",
+                dateeu: "1700-1730",
                 image: "images/ornament/wstęgowo-cęgowy, 1610-1750.png"
             },
             {
@@ -114,7 +114,7 @@ const categories = [
                 name: "Kratka regencyjna",
                 location: "",
                 date: "1710-1750",
-                dateeu: "1700–1730",
+                dateeu: "1700-1730",
                 image: "images/ornament/Kratka regencyjna, 1710-1750.JPG"
             },
             {
