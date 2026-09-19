@@ -35,6 +35,7 @@ const categories = [
                 name: "kartuszowo-zawijany",
                 location: "",
                 date: "1560-1580",
+                dateeu: "od 1530 do XVII",
                 image: "images/ornament/kartuszowo-zawijany, 1560-1580.JPG"
             },
             {
